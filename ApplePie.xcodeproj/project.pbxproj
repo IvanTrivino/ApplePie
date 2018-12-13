@@ -13,6 +13,7 @@
 		23047C5521C1B6430084B637 /* ApplePie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23047C5321C1B6430084B637 /* ApplePie.xcdatamodeld */; };
 		23047C5721C1B6450084B637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23047C5621C1B6450084B637 /* Assets.xcassets */; };
 		23047C5A21C1B6450084B637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23047C5821C1B6450084B637 /* LaunchScreen.storyboard */; };
+		23047C6221C1C7CA0084B637 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23047C6121C1C7CA0084B637 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		23047C5621C1B6450084B637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23047C5921C1B6450084B637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23047C5B21C1B6450084B637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23047C6121C1C7CA0084B637 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				23047C5821C1B6450084B637 /* LaunchScreen.storyboard */,
 				23047C5B21C1B6450084B637 /* Info.plist */,
 				23047C5321C1B6430084B637 /* ApplePie.xcdatamodeld */,
+				23047C6121C1C7CA0084B637 /* Game.swift */,
 			);
 			path = ApplePie;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				23047C4F21C1B6430084B637 /* ViewController.swift in Sources */,
 				23047C5521C1B6430084B637 /* ApplePie.xcdatamodeld in Sources */,
 				23047C4D21C1B6430084B637 /* AppDelegate.swift in Sources */,
+				23047C6221C1C7CA0084B637 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivantrivino.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivantrivino.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
